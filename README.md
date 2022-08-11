@@ -3,7 +3,7 @@
 Here you find the code to the article <html><img src="squelettes-dist/puce.gif" align="left">&nbsp;&nbsp;&nbsp;</html> "<i>Parametric and XGBoost Hurdle Model for estimating accident frequency</i>", (with <html><a href="http://samm.univ-paris1.fr/BARDET-Jean-Marc">JM. BARDET</a></html>), hal preprint (<html><a href="https://hal.archives-ouvertes.fr/hal-03739838/">link</a></html>). Some of the code are in R and some in Python.
 
 To compare our Hurdle model with machine learning we have done 4 other models. 
-#### parametric model 
+#### parametrics model 
 - Poisson GLM
 - Parametric Hurdle
 #### models that come from the literature :
