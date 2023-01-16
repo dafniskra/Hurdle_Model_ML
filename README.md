@@ -14,7 +14,7 @@ For the tree and boosting model, the codes come from the article: "Case Study: F
 
 # 2 - Codes
 
-For the data, we use FreMTPL2freq. We have 85% for training and 15% for testing.
+For the data, we use FreMTPL2freq.
 The code are in R and Python. 
 
 ### R Code
