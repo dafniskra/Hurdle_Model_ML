@@ -15,12 +15,12 @@ For the tree and boosting models, the codes are taken from the article "Case Stu
 We use FreMTPL2freq for the data, and the codes are available in both R and Python. The code files are:
 
 #### R Code:
-Regression GLM.r
-Regression Hurdle.r
-Regression tree.r
-Regression tree boosting.r
+- Regression GLM.r
+- Regression Hurdle.r
+- Regression tree.r
+- Regression tree boosting.r
 
 #### Python Code:
-Hurdle_ML.py
-Poisson optimization with optuna
-Binary optimization with optuna
+- Hurdle_ML.py
+- Poisson optimization with optuna
+- Binary optimization with optuna
