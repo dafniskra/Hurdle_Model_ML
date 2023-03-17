@@ -1,29 +1,26 @@
-# 1 - Parametric and XGBoost Hurdle Model for estimating accident frequency
+# 1 - Parametric and XGBoost Hurdle Model for Estimating Accident Frequency
+This repository contains the code related to the article "Parametric and XGBoost Hurdle Model for Estimating Accident Frequency" (with JM. Bardet and J. Rynkiewicz) and the hal preprint (<html><a href="https://hal.science/hal-03739838/document">link</a></html>). The code is written in Python.
 
-Here you find the code to the article <html><img src="squelettes-dist/puce.gif" align="left">&nbsp;&nbsp;&nbsp;</html> "<i>Parametric and XGBoost Hurdle Model for estimating accident frequency</i>", (with <html><a href="http://samm.univ-paris1.fr/BARDET-Jean-Marc">JM. BARDET</a></html>) and the hal preprint (<html><a href="https://hal.archives-ouvertes.fr/hal-03739838/">link</a></html>). Some of the code are in R and some in Python.
+To compare our Hurdle model with machine learning, we have implemented four other models:
 
-To compare our Hurdle model with machine learning we have done 4 other models. 
-#### parametrics model 
+#### Parametric models:
 - Poisson GLM
 - Parametric Hurdle
-#### models that come from the literature :
-- decision tree
+#### Models from the literature:
+- Decision tree
 - Poisson boosting tree model
-
-For the tree and boosting model, the codes come from the article: "Case Study: French Motor Third-Party Liability Claims" from A. Noll, R. Salzmann and M.V. Wüthrich, available from https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3164764.
+For the tree and boosting models, the codes are taken from the article "Case Study: French Motor Third-Party Liability Claims" by A. Noll, R. Salzmann, and M.V. Wüthrich, which is available at https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3164764.
 
 # 2 - Codes
+We use FreMTPL2freq for the data, and the codes are available in both R and Python. The code files are:
 
-For the data, we use FreMTPL2freq.
-The code are in R and Python. 
-
-### R Code
+#### R Code:
 Regression GLM.r
 Regression Hurdle.r
-Regressionn tree.r
+Regression tree.r
 Regression tree boosting.r
 
-### Python Code 
+#### Python Code:
 Hurdle_ML.py
-Poisson optimisation avec optuna 
-Binarie optimisation avec optuna
+Poisson optimization with optuna
+Binary optimization with optuna
